@@ -1,9 +1,9 @@
 
 
-const Button = ()=>{
+ const Button = ({text,weight})=>{
 
     return (
-    <button style={{fontWeight:"800"}} >important </button>
+    <button style={{fontWeight:weight}}> {text} </button>
     
      )
      ;
